@@ -592,11 +592,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1657886747028124626, guid: 6f245e9d693572143bc9910a1ad0d770, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1657886747028124626, guid: 6f245e9d693572143bc9910a1ad0d770, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.09
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1657886747028124626, guid: 6f245e9d693572143bc9910a1ad0d770, type: 3}
       propertyPath: m_LocalPosition.z
@@ -639,8 +639,17 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Max
         Health","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player_Bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 1744272274112453062, guid: 6f245e9d693572143bc9910a1ad0d770, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744272274112453062, guid: 6f245e9d693572143bc9910a1ad0d770, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8169080666925036075, guid: 48aa826d6559a5a4aae88f9aebd9e7ab, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1019,6 +1028,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1946462537126904375, guid: 41a569dfd8dd6cb45a9ab1cf0ee94036, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8754873900338661915, guid: 41a569dfd8dd6cb45a9ab1cf0ee94036, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1084,13 +1097,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5853674848625976651, guid: 0966556f6fe2011468631062073ae407, type: 3}
+      propertyPath: m_Size.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -5853674848625976651, guid: 0966556f6fe2011468631062073ae407, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6058712651067941391, guid: 0966556f6fe2011468631062073ae407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6058712651067941391, guid: 0966556f6fe2011468631062073ae407, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -6.03
       objectReference: {fileID: 0}
     - target: {fileID: 6058712651067941391, guid: 0966556f6fe2011468631062073ae407, type: 3}
       propertyPath: m_LocalPosition.z
